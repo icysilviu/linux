@@ -1,0 +1,3 @@
+alias pks='apt-cache search'
+alias pki='sudo apt-get install'
+alias pkr='sudo apt-get autoremove --purge'
