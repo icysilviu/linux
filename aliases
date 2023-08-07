@@ -1,3 +1,10 @@
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias pwd='echo "" && pwd && echo ""'
+
 alias pks='apt-cache search'
 alias pki='sudo apt-get install'
 alias pkr='sudo apt-get autoremove --purge'
+alias lsq='echo "" && ls -lh && echo ""'
+alias lsa='echo "" && ls -lha && echo ""'
+alias lfp='apt list --installed | grep'
