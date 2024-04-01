@@ -1,0 +1,24 @@
+After Distro install we need
+
+Video server, compositor and drivers
+	xorg, xinit, xf86-video -vesa, picom / compton
+
+Common C libraries and package tools for compiling dwm 
+	libxft, libx11, libxinerama
+	make gcc bc pkg-config
+ 
+For a minimalist system you will need to install fonts:
+	terminus-font (others are optional)
+
+Sound drivers:	
+	alsa-utils
+
+If you run a virtual machine you will also need:
+	linux-headers and virtualbox-guest-utils
+
+Everything else is optionall
+
+
+
+
+
