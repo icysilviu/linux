@@ -1,0 +1,4 @@
+alias pks='xbps-query -Rs'
+alias pki='sudo xbps-install -S'
+alias pkrc='sudo xbps-reconfigure'
+alias lfp='xbps-query -S'
