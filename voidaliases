@@ -1,4 +1,11 @@
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias pwd='echo "" && pwd && echo ""'
+
 alias pks='xbps-query -Rs'
 alias pki='sudo xbps-install -S'
 alias pkrc='sudo xbps-reconfigure'
 alias lfp='xbps-query -S'
+
+alias lsq='echo "" && ls -lh && echo ""'
+alias lsa='echo "" && ls -lha && echo ""'
