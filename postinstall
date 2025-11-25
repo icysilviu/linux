@@ -15,9 +15,22 @@ Sound drivers:
 
 If you run a virtual machine you will also need:
 	linux-headers and virtualbox-guest-utils
+############################################################
+For Wayland display manager
 
-Everything else is optionall
-
+Install wayland and libraries
+		Wayland,  wlroots, polkit
+		
+Install IPC, loginand seat daemon
+	Dbus,  elogind = complex    seatd = minimal
+	
+A group called "seat" should exist and the user must a part of it
+The seatd service should be enabled 
+	
+Install a compositor and tools
+	Sway = like i3
+	Swaybg, swaybar, foot (terminal)
+    River, Hyprland
 
 
 
