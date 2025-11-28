@@ -19,14 +19,15 @@ If you run a virtual machine you will also need:
 For Wayland display manager
 
 Install wayland and libraries
-		Wayland,  wlroots, polkit
+		Wayland,  wlroots
 		
-Install IPC, loginand seat daemon
-	Dbus,  elogind = complex    seatd = minimal
-	
-A group called "seat" should exist and the user must a part of it
-The seatd service should be enabled 
-	
+Install IPC, login daemon and fonts
+	noto-fonts-ttf elogind dbus-elogind polkit-elogind mesa-dri
+
+Start services
+sudo ln -s /etc/sv/dbus /var/service
+the same for elogind and polkit
+
 Install a compositor and tools
 	Sway = like i3
 	Swaybg, swaybar, foot (terminal)
