@@ -33,6 +33,8 @@ Install a compositor and tools
 	Swaybg, swaybar, foot (terminal)
     River, Hyprland
 
-
+sway may break the cursor
+	in the file /etc/environment    add the following line
+   WLR_NO_HARDWARE_CURSORS=1
 
 
