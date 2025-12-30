@@ -1,0 +1,48 @@
+
+# ~/.config/lf/lfrc
+
+# interpreter for shell commands
+set shell bash
+
+map . set hidden!
+
+# show line numbers
+set number
+
+# enable preview pane
+set preview
+
+# draw borders around panes
+set drawbox
+
+
+# open files with default program
+#map o $xdg-open "$f"
+
+# reload lf config
+map R reload
+
+# quit
+map q quit
+
+
+cmd open ${{
+    case "$(file --mime-type -Lb "$f")" in
+        text/*) vim "$f" ;;
+        image/*) imv -f "$f" ;;
+        video/*) mpv "$f" ;;
+        application/pdf) zathura "$f" ;;
+        *) xdg-open "$f" ;;
+    esac
+}}
+
+map o open
+
+# move current file or selected files to trash folder
+cmd trash %set -f; mv -t ~/.trash $fx
+
+map <delete> trash
+
+
+
+################   END of FILE   ################# 
