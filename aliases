@@ -5,6 +5,16 @@ alias pwd='echo "" && pwd && echo ""'
 alias pks='apt-cache search'
 alias pki='sudo apt-get install'
 alias pkr='sudo apt-get autoremove --purge'
+alias lfp='apt list --installed | grep'
+
+alias dnfs='dnf search'
+alias dnfi='sudo dnf install'
+
+alias pacs='pacman -Ss'
+alias paci='sudo pacman -S'
+
+
 alias lsq='echo "" && ls -lh && echo ""'
 alias lsa='echo "" && ls -lha && echo ""'
-alias lfp='apt list --installed | grep'
+
+PS1='\h@\w$ '
