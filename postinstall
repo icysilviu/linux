@@ -15,6 +15,11 @@ Sound drivers:
 
 If you run a virtual machine you will also need:
 	linux-headers and virtualbox-guest-utils
+
+
+
+
+
 ############################################################
 For Wayland display manager
 
@@ -31,7 +36,7 @@ the same for elogind and polkit
 Install a compositor and tools
 	Sway = like i3
 	Swaybg, swaybar, foot (terminal)
-    River, Hyprland
+    River, Hyprland, niri
 
 sway may break the cursor
 	in the file /etc/environment    add the following line
