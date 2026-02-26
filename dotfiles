@@ -1,0 +1,25 @@
+#!/bin/bash
+
+  rm ~/.bashrc
+  wget https://github.com/icysilviu/linux/raw/main/.bashrc
+  source .bashrc
+  
+  
+  wget https://github.com/icysilviu/linux/raw/main/.vimrc
+
+  cd .config
+  mkdir niri waybar lf alacritty
+  cd alacritty
+     wget https://github.com/icysilviu/linux/raw/main/alacritty.toml
+     cd ..
+  cd niri
+     wget https://github.com/icysilviu/linux/raw/main/config.kdl
+     cd ..
+  cd waybar
+     wget https://github.com/icysilviu/linux/raw/main/config.jsonc
+     wget https://github.com/icysilviu/linux/raw/main/style.css
+     cd ..
+  cd lf
+     wget https://github.com/icysilviu/linux/raw/main/lfrc
+     cd ..
+
