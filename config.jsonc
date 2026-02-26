@@ -1,0 +1,14 @@
+{
+
+    "layer": "bottom",
+    "position": "bottom",
+    "height": "30",
+    
+    "modules-right": ["clock"],
+
+
+
+    "clock": {
+        "format": " {:%a, %d-%b   %H:%M }"
+    }
+}
