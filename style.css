@@ -10,5 +10,6 @@ window#waybar
     { background-color: transparent; }
 
 #clock
-    {background: #ABE9B3; }
+    {background: #ABE9B3;
+     color: #000000; }
 
