@@ -8,18 +8,15 @@
   wget https://github.com/icysilviu/linux/raw/main/.vimrc
 
   cd .config
-  mkdir niri waybar lf alacritty
+  mkdir hypr waybar alacritty
   cd alacritty
      wget https://github.com/icysilviu/linux/raw/main/alacritty.toml
      cd ..
-  cd niri
-     wget https://github.com/icysilviu/linux/raw/main/config.kdl
+  cd hypr
+     wget https://github.com/icysilviu/linux/raw/main/hyprland.conf
+     wget https://github.com/icysilviu/linux/raw/main/hyprpaper.conf
      cd ..
   cd waybar
      wget https://github.com/icysilviu/linux/raw/main/config.jsonc
      wget https://github.com/icysilviu/linux/raw/main/style.css
      cd ..
-  cd lf
-     wget https://github.com/icysilviu/linux/raw/main/lfrc
-     cd ..
-
