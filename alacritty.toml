@@ -1,16 +1,17 @@
-
 [general]
   live_config_reload = false
 
 [window]
-  startup_mode = "Windowed" 
   opacity = 0.9
 
+[scrolling]
+  history = 5000
 
 [font]
-  normal = { family = "monospace", style = "Regular" }
+  normal = { family = "AdwaitaMono", style = "Regula
+r" }
   size = 22
 
 [colors.primary]
- ## foreground = "#DC9916"  ### light orange color
-  foreground = "#BD8B28"  ### dark orange color
+  foreground = "#B57D01"   ##   Orange
+# foreground = "#BD8B28"  ### dark orange color
