@@ -4,11 +4,10 @@
   wget https://github.com/icysilviu/linux/raw/main/.bashrc
   source .bashrc
   
-  
   wget https://github.com/icysilviu/linux/raw/main/.vimrc
 
   cd .config
-  mkdir hypr waybar alacritty
+  mkdir hypr waybar alacritty gtk-3.0
   cd alacritty
      wget https://github.com/icysilviu/linux/raw/main/alacritty.toml
      cd ..
@@ -19,4 +18,7 @@
   cd waybar
      wget https://github.com/icysilviu/linux/raw/main/config.jsonc
      wget https://github.com/icysilviu/linux/raw/main/style.css
+     cd ..
+  cd gtk-3.0
+     wget https://github.com/icysilviu/linux/raw/main/settings.ini
      cd ..
