@@ -18,4 +18,7 @@ alias ea='vim .config/alacritty/alacritty.toml'
 alias eh='vim .config/hypr/hyprland.conf'
 alias sh='start-hyprland'
 
+alias pks='apt-cache search'
+alias pki='sudo apt install'
+
 PS1='\h@\w$ '
