@@ -8,8 +8,7 @@
   history = 5000
 
 [font]
-  normal = { family = "AdwaitaMono", style = "Regula
-r" }
+  normal = { family = "AdwaitaMono", style = "Regular" }
   size = 22
 
 [colors.primary]
