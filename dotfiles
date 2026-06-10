@@ -1,5 +1,7 @@
 #!/bin/bash
 
+##    https://aur.archlinux.org/brave-bin.git
+
   rm ~/.bashrc
   wget https://github.com/icysilviu/linux/raw/main/.bashrc
   source .bashrc
