@@ -14,7 +14,7 @@
      wget https://github.com/icysilviu/linux/raw/main/alacritty.toml
      cd ..
   cd hypr
-     wget https://github.com/icysilviu/linux/raw/main/hyprland.conf
+     wget https://github.com/icysilviu/linux/raw/main/hyprland.lua
      wget https://github.com/icysilviu/linux/raw/main/hyprpaper.conf
      cd ..
   cd waybar
@@ -23,4 +23,9 @@
      cd ..
   cd gtk-3.0
      wget https://github.com/icysilviu/linux/raw/main/settings.ini
-     cd ..
+     cd
+  mkdir opt-packages
+  cd opt-packages
+    git clone https://aur.archlinux.org/brave-bin.git
+    cd brave-bin
+    makepkg -si
