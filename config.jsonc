@@ -3,12 +3,21 @@
     "layer": "bottom",
     "position": "bottom",
     "height": "30",
-    
-    "modules-right": ["clock"],
 
+   
+    "modules-right": ["battery","clock"],
 
+	
 
     "clock": {
         "format": " {:%a, %d-%b   %H:%M }"
-    }
+    },
+    
+    
+   "battery": {
+   	"format": "{capacity}%"
+        }
+    
+
 }
+
