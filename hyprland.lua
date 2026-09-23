@@ -273,6 +273,11 @@ hl.bind("CTRL + ALT + END", hl.dsp.exec_cmd("systemctl poweroff"))
 hl.bind("ALT + t", hl.dsp.exec_cmd("featherpad"))
 
 
+--- Swap  windows 
+hl.bind("SUPER + bracketleft", hl.dsp.window.swap({ direction = "l" }))
+hl.bind("SUPER + bracketright", hl.dsp.window.swap({ direction = "r" }))
+ 
+
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
 hl.bind(mainMod .. " + right", hl.dsp.focus({ direction = "right" }))
