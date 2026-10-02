@@ -11,14 +11,12 @@ alias pwd='echo "" && pwd && echo ""'
 
 alias lsq='echo "" && ls -lh && echo ""'
 alias lsa='echo "" && ls -lha && echo ""'
-alias pacs='pacman -Ss'
-alias paci='sudo pacman -S'
 
-alias ea='vim .config/alacritty/alacritty.toml'
-alias eh='vim .config/hypr/hyprland.conf'
 alias sh='start-hyprland'
+alias bt='bashtop'
 
-alias pks='apt-cache search'
+alias pks='apt search'
 alias pki='sudo apt install'
+alias pkr='sudo autoremove --purge'
 
 PS1='\h@\w$ '
