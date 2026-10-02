@@ -88,7 +88,7 @@ hl.env("HYPRCURSOR_SIZE", "24")
 hl.config({
     general = {
         gaps_in  = 5,
-        gaps_out = 20,
+        gaps_out = 5,
 
         border_size = 2,
 
@@ -268,9 +268,9 @@ hl.bind(mainMod .. " + p", hl.dsp.exec_cmd(menu))
 -- hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
 
-hl.bind("ALT + w", hl.dsp.exec_cmd("brave"))
+hl.bind("ALT + w", hl.dsp.exec_cmd("brave-browser"))
 hl.bind("CTRL + ALT + END", hl.dsp.exec_cmd("systemctl poweroff"))
-hl.bind("ALT + t", hl.dsp.exec_cmd("featherpad"))
+hl.bind("ALT + t", hl.dsp.exec_cmd("gnome-text-editor"))
 
 
 --- Swap  windows 
